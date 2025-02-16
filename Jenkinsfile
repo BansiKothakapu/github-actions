@@ -10,19 +10,19 @@ pipeline {
 
     stage('Build') {
       steps {
-        echo 'Executing Build Phase')
+        echo 'Executing Build Phase'
       }
     }
 
     stage('Testing') {
       steps {
-        echo 'Executing Testing Phase')
+        echo 'Executing Testing Phase'
       }
     }
 
     stage('Deploying') {
       steps {
-        echo 'Executing Deployment Phase')
+        echo 'Executing Deployment Phase'
       }
     }
   }
