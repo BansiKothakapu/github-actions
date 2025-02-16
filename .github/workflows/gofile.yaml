@@ -1,9 +1,0 @@
-name: Sample Go Build
-on: [push]
-jobs:
-  Build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - name: Set up Go Version
-      - run: go run hello-world.go
