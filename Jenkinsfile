@@ -27,6 +27,11 @@ pipeline {
 
    }
 
+    stage('Report') {
+      steps {
+        echo 'Sending Report to Sonar Server'
+      }
+    }
     stage('Deploying') {
       steps {
         echo 'Executing Deployment Phase'
