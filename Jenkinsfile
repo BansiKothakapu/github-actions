@@ -20,6 +20,13 @@ pipeline {
       }
     }
 
+   stage('Static Code Analaysis') {
+      steps {
+         echo 'Executing SCA phase'
+       }       
+
+   }
+
     stage('Deploying') {
       steps {
         echo 'Executing Deployment Phase'
